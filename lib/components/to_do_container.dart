@@ -17,6 +17,7 @@ class ToDoContainer extends StatelessWidget {
   Widget build(BuildContext context) {
     return Slidable(
       endActionPane: ActionPane(
+        extentRatio: 0.3,
         motion: const StretchMotion(),
         children: [
           SlidableAction(
